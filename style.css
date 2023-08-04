@@ -57,3 +57,33 @@
     width:114px;
     
 }
+.image-container{
+    width:335px;
+    height:195px;
+     
+     
+}
+.image-container img{
+    width:335px;
+    height:195px;
+}
+.container_couponlist{
+    display:flex;
+    width:1248px;
+    height:227px;
+    overflow-x:scroll;
+    overflow-y:hidden ;
+    column-gap:20px;
+     
+}
+main{
+    width: 100vw;
+}
+.items-list-grid{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
